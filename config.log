@@ -1,0 +1,450 @@
+file C:\Users\J\Desktop\The-Powder-Toy\The-Powder-Toy-master\SConscript,line 381:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking whether the C compiler works... 
+scons: Configure: ".sconf_temp\conftest_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp\conftest_0.c <-
+  |  |
+  |  |int main()
+  |  |{
+  |  |    return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp\conftest_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_0.o -c -Ibuild\src -Isrc -Ibuild\data -Idata -Ibuild\generated -Igenerated .sconf_temp\conftest_0.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking whether the C++ compiler works... 
+scons: Configure: ".sconf_temp\conftest_1.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp\conftest_1.cpp <-
+  |  |
+  |  |int main()
+  |  |{
+  |  |    return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp\conftest_1.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp\conftest_1.o -c -Ibuild\src -Isrc -Ibuild\data -Idata -Ibuild\generated -Igenerated .sconf_temp\conftest_1.cpp
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking if 64 bit... 
+scons: Configure: ".sconf_temp\conftest_2.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp\conftest_2.c <-
+  |  |#include <stdlib.h>
+  |  |	#include <stdio.h>
+  |  |	int main() {
+  |  |		printf("%d", (int)sizeof(size_t));
+  |  |		return 0;
+  |  |	}
+  |  |	
+  |
+scons: Configure: ".sconf_temp\conftest_2.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_2.o -c -Ibuild\src -Isrc -Ibuild\data -Idata -Ibuild\generated -Igenerated .sconf_temp\conftest_2.c
+  |
+scons: Configure: ".sconf_temp\conftest_3.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp\conftest_3.c <-
+  |  |#include <stdlib.h>
+  |  |	#include <stdio.h>
+  |  |	int main() {
+  |  |		printf("%d", (int)sizeof(size_t));
+  |  |		return 0;
+  |  |	}
+  |  |	
+  |
+scons: Configure: ".sconf_temp\conftest_3.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_3.o -c -Ibuild\src -Isrc -Ibuild\data -Idata -Ibuild\generated -Igenerated .sconf_temp\conftest_3.c
+  |
+scons: Configure: ".sconf_temp\conftest_3.exe" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_3.exe .sconf_temp\conftest_3.o
+  |
+scons: Configure: ".sconf_temp\conftest_3.exe.out" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp\conftest_3.exe > .sconf_temp\conftest_3.exe.out
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking for C library mingw32... 
+scons: Configure: ".sconf_temp\conftest_4.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp\conftest_4.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp\conftest_4.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_4.o -c -Ibuild\src -Isrc -Ibuild\data -Idata -Ibuild\generated -Igenerated .sconf_temp\conftest_4.c
+  |
+scons: Configure: ".sconf_temp\conftest_4.exe" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_4.exe .sconf_temp\conftest_4.o -lmingw32
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library ws2_32... 
+scons: Configure: ".sconf_temp\conftest_5.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp\conftest_5.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp\conftest_5.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_5.o -c -Ibuild\src -Isrc -Ibuild\data -Idata -Ibuild\generated -Igenerated .sconf_temp\conftest_5.c
+  |
+scons: Configure: ".sconf_temp\conftest_5.exe" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_5.exe .sconf_temp\conftest_5.o -lmingw32 -lws2_32
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library SDLmain... 
+scons: Configure: ".sconf_temp\conftest_6.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp\conftest_6.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp\conftest_6.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_6.o -c -Ibuild\src -Isrc -Ibuild\data -Idata -Ibuild\generated -Igenerated .sconf_temp\conftest_6.c
+  |
+scons: Configure: ".sconf_temp\conftest_6.exe" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_6.exe .sconf_temp\conftest_6.o -lmingw32 -lws2_32 -lSDLmain
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library SDL... 
+scons: Configure: ".sconf_temp\conftest_7.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp\conftest_7.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp\conftest_7.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_7.o -c -Ibuild\src -Isrc -Ibuild\data -Idata -Ibuild\generated -Igenerated .sconf_temp\conftest_7.c
+  |
+scons: Configure: ".sconf_temp\conftest_7.exe" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_7.exe .sconf_temp\conftest_7.o -lmingw32 -lws2_32 -lSDLmain -lSDL
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file SDL.h... 
+scons: Configure: ".sconf_temp\conftest_8.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp\conftest_8.c <-
+  |  |
+  |  |#include "SDL.h"
+  |  |
+  |  |
+  |
+scons: Configure: Building ".sconf_temp\conftest_8.o" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_8.o -c -Ibuild\src -Isrc -Ibuild\data -Idata -Ibuild\generated -Igenerated .sconf_temp\conftest_8.c
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking for C header file SDL/SDL.h... 
+scons: Configure: ".sconf_temp\conftest_9.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp\conftest_9.c <-
+  |  |
+  |  |#include "SDL/SDL.h"
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp\conftest_9.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_9.o -c -Ibuild\src -Isrc -Ibuild\data -Idata -Ibuild\generated -Igenerated .sconf_temp\conftest_9.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library lua5.1... 
+scons: Configure: ".sconf_temp\conftest_10.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp\conftest_10.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp\conftest_10.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_10.o -c -DSDL_INC -Ibuild\src -Isrc -Ibuild\data -Idata -Ibuild\generated -Igenerated .sconf_temp\conftest_10.c
+  |
+scons: Configure: ".sconf_temp\conftest_10.exe" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_10.exe .sconf_temp\conftest_10.o -lmingw32 -lws2_32 -lSDLmain -lSDL -llua5.1
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file lua5.1/lua.h... 
+scons: Configure: ".sconf_temp\conftest_11.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp\conftest_11.c <-
+  |  |
+  |  |#include "lua5.1/lua.h"
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp\conftest_11.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_11.o -c -DSDL_INC -Ibuild\src -Isrc -Ibuild\data -Idata -Ibuild\generated -Igenerated .sconf_temp\conftest_11.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library fftw3f... 
+scons: Configure: ".sconf_temp\conftest_12.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp\conftest_12.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp\conftest_12.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_12.o -c -DSDL_INC -Ibuild\src -Isrc -Ibuild\data -Idata -Ibuild\generated -Igenerated .sconf_temp\conftest_12.c
+  |
+scons: Configure: ".sconf_temp\conftest_12.exe" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_12.exe .sconf_temp\conftest_12.o -lmingw32 -lws2_32 -lSDLmain -lSDL -llua5.1 -lfftw3f
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library bz2... 
+scons: Configure: ".sconf_temp\conftest_13.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp\conftest_13.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp\conftest_13.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_13.o -c -DSDL_INC -Ibuild\src -Isrc -Ibuild\data -Idata -Ibuild\generated -Igenerated .sconf_temp\conftest_13.c
+  |
+scons: Configure: ".sconf_temp\conftest_13.exe" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_13.exe .sconf_temp\conftest_13.o -lmingw32 -lws2_32 -lSDLmain -lSDL -llua5.1 -lfftw3f -lbz2
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file bzlib.h... 
+scons: Configure: ".sconf_temp\conftest_14.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp\conftest_14.c <-
+  |  |
+  |  |#include "bzlib.h"
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp\conftest_14.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_14.o -c -DSDL_INC -Ibuild\src -Isrc -Ibuild\data -Idata -Ibuild\generated -Igenerated .sconf_temp\conftest_14.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library z... 
+scons: Configure: ".sconf_temp\conftest_15.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp\conftest_15.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp\conftest_15.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_15.o -c -DSDL_INC -Ibuild\src -Isrc -Ibuild\data -Idata -Ibuild\generated -Igenerated .sconf_temp\conftest_15.c
+  |
+scons: Configure: ".sconf_temp\conftest_15.exe" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_15.exe .sconf_temp\conftest_15.o -lmingw32 -lws2_32 -lSDLmain -lSDL -llua5.1 -lfftw3f -lbz2 -lz
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library pthread... 
+scons: Configure: ".sconf_temp\conftest_16.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp\conftest_16.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp\conftest_16.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_16.o -c -DSDL_INC -Ibuild\src -Isrc -Ibuild\data -Idata -Ibuild\generated -Igenerated .sconf_temp\conftest_16.c
+  |
+scons: Configure: ".sconf_temp\conftest_16.exe" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_16.exe .sconf_temp\conftest_16.o -lmingw32 -lws2_32 -lSDLmain -lSDL -llua5.1 -lfftw3f -lbz2 -lz -lpthread
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library m... 
+scons: Configure: ".sconf_temp\conftest_17.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp\conftest_17.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp\conftest_17.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_17.o -c -DSDL_INC -Ibuild\src -Isrc -Ibuild\data -Idata -Ibuild\generated -Igenerated .sconf_temp\conftest_17.c
+  |
+scons: Configure: ".sconf_temp\conftest_17.exe" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_17.exe .sconf_temp\conftest_17.o -lmingw32 -lws2_32 -lSDLmain -lSDL -llua5.1 -lfftw3f -lbz2 -lz -lpthread -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library gdi32... 
+scons: Configure: ".sconf_temp\conftest_18.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp\conftest_18.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp\conftest_18.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_18.o -c -DSDL_INC -Ibuild\src -Isrc -Ibuild\data -Idata -Ibuild\generated -Igenerated .sconf_temp\conftest_18.c
+  |
+scons: Configure: ".sconf_temp\conftest_18.exe" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_18.exe .sconf_temp\conftest_18.o -lmingw32 -lws2_32 -lSDLmain -lSDL -llua5.1 -lfftw3f -lbz2 -lz -lpthread -lm -lgdi32
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library winmm... 
+scons: Configure: ".sconf_temp\conftest_19.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp\conftest_19.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp\conftest_19.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_19.o -c -DSDL_INC -Ibuild\src -Isrc -Ibuild\data -Idata -Ibuild\generated -Igenerated .sconf_temp\conftest_19.c
+  |
+scons: Configure: ".sconf_temp\conftest_19.exe" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_19.exe .sconf_temp\conftest_19.o -lmingw32 -lws2_32 -lSDLmain -lSDL -llua5.1 -lfftw3f -lbz2 -lz -lpthread -lm -lgdi32 -lwinmm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library dxguid... 
+scons: Configure: ".sconf_temp\conftest_20.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp\conftest_20.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp\conftest_20.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_20.o -c -DSDL_INC -Ibuild\src -Isrc -Ibuild\data -Idata -Ibuild\generated -Igenerated .sconf_temp\conftest_20.c
+  |
+scons: Configure: ".sconf_temp\conftest_20.exe" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp\conftest_20.exe .sconf_temp\conftest_20.o -lmingw32 -lws2_32 -lSDLmain -lSDL -llua5.1 -lfftw3f -lbz2 -lz -lpthread -lm -lgdi32 -lwinmm -ldxguid
+  |
+scons: Configure: (cached) yes
+
+
